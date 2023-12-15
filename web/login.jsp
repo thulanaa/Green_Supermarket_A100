@@ -17,6 +17,23 @@
     <title>Green Supermarket</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@200;400;500;600&display=swap');
+    
+        
+        body{
+   /* background-color: #3c3d42;
+     background: linear-gradient(to right, #3c3d42, #d3e1e3);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(https://drive.google.com/file/d/1os8Y4EkfSGZ6gl0fHu8KxIhTxo67UNxv/view?usp=drive_link);
+    background-repeat: no-repeat;
+      min-height: 100vh;
+      background-size: cover;
+      background-attachment: fixed;
+      overflow: hidden; 
+}
     </style>
 </head>
 <body>

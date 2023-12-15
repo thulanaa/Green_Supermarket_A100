@@ -6,7 +6,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Created on : Dec 14, 2023, 11:55:05 PM
     Author     : DELL
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@200;400;500;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    background-image: url(login.jpg);
+    background-image: url("assets/login.jpg");
     background-repeat: no-repeat;
       min-height: 100vh;
       background-size: cover;
@@ -224,3 +224,4 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+  
